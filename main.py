@@ -205,7 +205,7 @@ def history(update, context):
         text = data["about_us"]["history"]
     update.message.reply_text(text)
     update.message.reply_text("Предлагаемые действия: \n\nНазад - /about_us \n\nМои возможности - /help "
-                              "\n\nЗаказать бота - /order_bot")
+                              "\n\nЗаказать бота - /bue")
     print('[==>] Ответ: Успешно')
     print()
 
@@ -217,7 +217,7 @@ def creator(update, context):
         text = data["about_us"]["creator"]
     update.message.reply_markdown_v2(text)
     update.message.reply_text("Предлагаемые действия: \n\nНазад - /about_us \n\nМои возможности - /help "
-                              "\n\nЗаказать бота - /order_bot")
+                              "\n\nЗаказать бота - /bue")
     print('[==>] Ответ: Успешно')
     print()
 
